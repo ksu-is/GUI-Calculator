@@ -6,3 +6,6 @@
 - [ ] _Task 5:_ Test the source code to ensure it works properly and clone the file. 
 - [ ] _Task 6:_ Add project tasks in _Sprint 2._
 # Sprint 2
+- [ ] _Task 1:_ Make small updates as needed.
+- [ ] _Task 2:_ Commit at least 6 code changes of signifigant size.
+- [ ] _Task 3:_ Include a comment explaining what you did with each commit.
