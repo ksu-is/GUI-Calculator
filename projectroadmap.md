@@ -11,7 +11,7 @@
 - [x] _Task 3:_ Include a comment explaining tasks performed for project
 - [x] _Task 4:_ Create tasks for _Sprint 3._
 # Sprint 3
-- [ ] _Task 1:_ Create PowerPoint for project
+- [x] _Task 1:_ Create PowerPoint for project
 - [ ] _Task 2:_ List your project team members.
 - [ ] _Task 3:_ Show the title of your project.
 - [ ] _Task 4:_ Show a tag line that introduces the main concept of what it does/will do.
