@@ -150,82 +150,82 @@ class Application(Frame):
         :return: None
         """
 
-        self.sin_bttn = Button(self, text="sin", width=9, height=3, command=lambda: self.add_chr('sin'))
+        self.sin_bttn = Button(self, text="sin", width=9, height=3, bg="Red", command=lambda: self.add_chr('sin'))
         self.sin_bttn.grid(row=1, column=6)
 
-        self.cos_bttn = Button(self, text="cos", width=9, height=3, command=lambda: self.add_chr('cos'))
+        self.cos_bttn = Button(self, text="cos", width=9, height=3, bg="Red", command=lambda: self.add_chr('cos'))
         self.cos_bttn.grid(row=2, column=6)
 
-        self.tan_bttn = Button(self, text="tan", width=9, height=3, command=lambda: self.add_chr('tan'))
+        self.tan_bttn = Button(self, text="tan", width=9, height=3, bg="Red", command=lambda: self.add_chr('tan'))
         self.tan_bttn.grid(row=3, column=6)
 
-        self.eq_bttn = Button(self, text="=", width=20, height=3, bg="lightgrey", command=lambda: self.calculate())
+        self.eq_bttn = Button(self, text="=", width=20, height=3, bg="Red", command=lambda: self.calculate())
         self.eq_bttn.grid(row=4, column=4, columnspan=2)
 
-        self.ac_bttn = Button(self, text='CE', width=9, height=3, command=lambda: self.clear_all())
+        self.ac_bttn = Button(self, text='CE', width=9, height=3, bg="Red", command=lambda: self.clear_all())
         self.ac_bttn.grid(row=1, column=4)
 
-        self.c_bttn = Button(self, text='←', width=9, height=3, command=lambda: self.clear())
+        self.c_bttn = Button(self, text='←', width=9, height=3, bg="Red", command=lambda: self.clear())
         self.c_bttn.grid(row=1, column=5 )
 
-        self.add_bttn = Button(self, text="+", width=9, height=3, command=lambda: self.add_chr('+'))
+        self.add_bttn = Button(self, text="+", width=9, height=3, bg="Red", command=lambda: self.add_chr('+'))
         self.add_bttn.grid(row=4, column=3)
 
-        self.mult_bttn = Button(self, text="×", width=9, height=3, command=lambda: self.add_chr('×'))
+        self.mult_bttn = Button(self, text="×", width=9, height=3, bg="Red", command=lambda: self.add_chr('×'))
         self.mult_bttn.grid(row=2, column=3)
 
-        self.sub_bttn = Button(self, text="-", width=9, height=3, command=lambda: self.add_chr('-'))
+        self.sub_bttn = Button(self, text="-", width=9, height=3, bg="Red", command=lambda: self.add_chr('-'))
         self.sub_bttn.grid(row=3, column=3)
 
-        self.div_bttn = Button(self, text="÷", width=9, height=3, command=lambda: self.add_chr('/'))
+        self.div_bttn = Button(self, text="÷", width=9, height=3, bg="Red", command=lambda: self.add_chr('/'))
         self.div_bttn.grid(row=1, column=3)
 
-        self.mod_bttn = Button(self, text="%", width=9, height=3, command=lambda: self.add_chr('%'))
+        self.mod_bttn = Button(self, text="%", width=9, height=3, bg="Red", command=lambda: self.add_chr('%'))
         self.mod_bttn.grid(row=4, column=2)
 
-        self.seven_bttn = Button(self, text="7", width=9, height=3, command=lambda: self.add_chr(7))
+        self.seven_bttn = Button(self, text="7", width=9, height=3, bg="Red", command=lambda: self.add_chr(7))
         self.seven_bttn.grid(row=1, column=0)
 
-        self.eight_bttn = Button(self, text="8", width=9, height=3, command=lambda: self.add_chr(8))
+        self.eight_bttn = Button(self, text="8", width=9, height=3, bg="Red", command=lambda: self.add_chr(8))
         self.eight_bttn.grid(row=1, column=1)
 
-        self.nine_bttn = Button(self, text="9", width=9, height=3, command=lambda: self.add_chr(9))
+        self.nine_bttn = Button(self, text="9", width=9, height=3, bg="Red", command=lambda: self.add_chr(9))
         self.nine_bttn.grid(row=1, column=2)
 
-        self.four_bttn = Button(self, text="4", width=9, height=3, command=lambda: self.add_chr(4))
+        self.four_bttn = Button(self, text="4", width=9, height=3, bg="Red", command=lambda: self.add_chr(4))
         self.four_bttn.grid(row=2, column=0)
 
-        self.five_bttn = Button(self, text="5", width=9, height=3, command=lambda: self.add_chr(5))
+        self.five_bttn = Button(self, text="5", width=9, height=3, bg="Red", command=lambda: self.add_chr(5))
         self.five_bttn.grid(row=2, column=1)
 
-        self.six_bttn = Button(self, text="6", width=9, height=3, command=lambda: self.add_chr(6))
+        self.six_bttn = Button(self, text="6", width=9, height=3, bg="Red", command=lambda: self.add_chr(6))
         self.six_bttn.grid(row=2, column=2)
 
-        self.one_bttn = Button(self, text="1", width=9, height=3, command=lambda: self.add_chr(1))
+        self.one_bttn = Button(self, text="Brian", width=9, height=3, bg="Red", command=lambda: self.add_chr("Jones "))
         self.one_bttn.grid(row=3, column=0)
 
-        self.two_bttn = Button(self, text="2", width=9, height=3, command=lambda: self.add_chr(2))
+        self.two_bttn = Button(self, text="Laquisha", width=9, height=3, bg="Red", command=lambda: self.add_chr("& Adkins"))
         self.two_bttn.grid(row=3, column=1)
 
-        self.three_bttn = Button(self, text="3", width=9, height=3, command=lambda: self.add_chr(3))
+        self.three_bttn = Button(self, text="3", width=9, height=3, bg="Red", command=lambda: self.add_chr(3))
         self.three_bttn.grid(row=3, column=2)
 
-        self.zero_bttn = Button(self, text="0", width=9, height=3, command=lambda: self.add_chr(0))
+        self.zero_bttn = Button(self, text="0", width=9, height=3, bg="Red", command=lambda: self.add_chr(0))
         self.zero_bttn.grid(row=4, column=0)
 
-        self.dec_bttn = Button(self, text=".", width=9, height=3, command=lambda: self.add_chr('.'))
+        self.dec_bttn = Button(self, text=".", width=9, height=3, bg="Red", command=lambda: self.add_chr('.'))
         self.dec_bttn.grid(row=4, column=1)
 
-        self.lpar_bttn = Button(self, text="(", width=9, height=3, command=lambda: self.add_chr('('))
+        self.lpar_bttn = Button(self, text="(", width=9, height=3, bg="Red", command=lambda: self.add_chr('('))
         self.lpar_bttn.grid(row=2, column=4)
 
-        self.rpar_bttn = Button(self, text=")", width=9, height=3, command=lambda: self.add_chr(')'))
+        self.rpar_bttn = Button(self, text=")", width=9, height=3, bg="Red", command=lambda: self.add_chr(')'))
         self.rpar_bttn.grid(row=2, column=5)
 
-        self.sq_bttn = Button(self, text="√", width=9, height=3, command=lambda: self.add_chr('√('))
+        self.sq_bttn = Button(self, text="√", width=9, height=3, bg="Red", command=lambda: self.add_chr('√('))
         self.sq_bttn.grid(row=3, column=4)
 
-        self.sqr_bttn = Button(self, text="^", width=9, height=3, command=lambda: self.add_chr('^'))
+        self.sqr_bttn = Button(self, text="^", width=9, height=3, bg="Red", command=lambda: self.add_chr('^'))
         self.sqr_bttn.grid(row=3, column=5)
 
 root = Tk()
