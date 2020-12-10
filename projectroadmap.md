@@ -10,10 +10,4 @@
 - [x] _Task 2:_ Commit at least six code changes of significant size
 - [x] _Task 3:_ Include a comment explaining tasks performed for project
 - [x] _Task 4:_ Create tasks for _Sprint 3._
-# Sprint 3
-- [x] _Task 1:_ Create PowerPoint for project
-- [ ] _Task 2:_ List your project team members.
-- [ ] _Task 3:_ Show the title of your project.
-- [ ] _Task 4:_ Show a tag line that introduces the main concept of what it does/will do.
-- [ ] _Task 5:_ Show 1-2 screenshots or pictures demonstrating the idea or parts.
-- [ ] _Task 6:_ Upload the PowerPoint to D2L and make a copy of project on the Github repository. 
+
