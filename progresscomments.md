@@ -7,4 +7,6 @@
 * Completed checklist for tasks to be performed for _Sprint 3._
 # December 4
 * Started the PowerPoint
-
+# December 10
+* Final project has been presented and submitted.
+* Done
